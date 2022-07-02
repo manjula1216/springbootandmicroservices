@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Table(name = "USER_TBL")
 @NoArgsConstructor
-@AllArgsConstructor(staticName = "details")
+@AllArgsConstructor(staticName = "build")
 public class UserEntity {
 	
 	@Id

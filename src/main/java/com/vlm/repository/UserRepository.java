@@ -1,5 +1,10 @@
 package com.vlm.repository;
 
-public interface UserRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.vlm.entity.UserEntity;
+
+public interface UserRepository extends JpaRepository<UserEntity, Integer> {
+
+	
 }
