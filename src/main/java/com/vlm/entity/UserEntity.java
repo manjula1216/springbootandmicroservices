@@ -22,6 +22,7 @@ public class UserEntity {
 	private int userId;
 	private String name;
 	private int age;
+	private String email;
 	private String mobileno;
 	private String gender;
 	private String city;

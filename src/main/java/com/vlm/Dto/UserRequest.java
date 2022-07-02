@@ -1,5 +1,6 @@
 package com.vlm.Dto;
 
+import javax.validation.constraints.Email;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
@@ -19,7 +20,8 @@ public class UserRequest {
 	@Min(18)
 	@Max(60)
 	private int age;
-	
+	@Email
+	private String email;
 	private String mobileno;
 	@NotBlank(message = "Gender Must be Specify")
 	private String gender;
